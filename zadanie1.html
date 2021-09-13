@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+ 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link href="css/zadanie1.css" rel="stylesheet" type="text/css">
+
+<title>zadanie1</title>
+
+</head>
+
+<body>
+
+<a href="example.com">ссылка на главную страницу example.com</a></br>
+
+<a href="https://example.com">ссылка на главную сайта example.com</a></br>
+
+<a href="ftp://example.com">ссылка ftp без авторизации</a></br>
+
+<a href="ftp://s0163600:b4kfRNV3/example.com/file.txt">ссылка на файл с авторизацией</a></br>
+
+<a href="https://www.youtube.com/watch?v=b_FfEex76ZI">ссылка на youtube видео</a></br>
+
+<a href="file:///C:/Users/Сергей/Desktop/frontend/zadanie1.html"> ссылка на текущую страницу </a> </br>
+ 
+<a href="http://htmlbook.ru/" target="_blank">ссылка с двумя параметрами</a></br>
+
+<ul class="nav">
+            <li><a href="#" title="главная">Главная</a></li>
+            <li><a href="#" title="контакты">Контакты</a></li>
+            <li><a href="#" title="о сайте">О сайте</a></li>
+        </ul>
+ 
+ <a>ссылка без href</a></br>
+ <a href="##">ссылка с пустым href<a></br>
+
+<a href="https://ru.wikipedia.org/wiki/CSS" rel="nofollow">ссылка без доступа к поисковикам</a></br>
+
+<a href="https://www.wikipedia.org/" rel="noindex">ссылка без индексации</a></br>
+
+<a href="https://htmlacademy.ru/courses?utm_source=yandex&utm_medium=cpc&utm_campaign=all_courses_reg_53310514&utm_content=v2%7C%7C9328710470%7C%7C21277034395%7C%7Chtml%7C%7C1%7C%7Cpremium%7C%7Cnone%7C%7Csearch%7C%7Cno&utm_term=html&yclid=5310186408361907164 title="html">контекстная ссылка</a></br>
+   <p><a href="https://ru.wikipedia.org/wiki/Заглавная_страница"><img src="https://yt3.ggpht.com/a/AATXAJy4G5ehWzERj8hqzocc_msCybDQbiB48ax6N5HE=s900-c-k-c0xffffffff-no-rj-mo" width="832" 
+   height="781" border="0" alt="Пример">ссылка с изображением</a></p></br>
+ 
+
+
+<img src="https://myslide.ru/documents_7/d3f45d09205f79a489d99c104b6a4c5b/img26.jpg" width="800" height="600" alt="тег map">
+
+<p>
+<map name="map">
+<area shape="rect" coords="150,60,150,60" href="ftp://example.com" alt="Информация">
+
+<area shape="circle" coords="60,60,20" href="ftp://example.com" alt="circle">
+
+</map></br>
+
+<a href="zadanie1.html">относительная ссылка в текущем каталоге</a></br>
+
+<a href="about/zadanie1.html">относительная в каталоге about</a></br>
+
+<a href="../zadanie1.html">относительная на уровень выше</a></br>
+<a href="../../zadanie1.html">относительная на два уровня выше</a></br>
+
+<a href="/">сокращенная на главную</a></br>
+
+<a href="/zadanie1"> 
+<p><input maxlength="25" size="40"></p>
+
+</a></br>
+
+
+<form>
+   <p><strong>Как вас зовут?</strong></p></br>
+   <p><input maxlength="25" size="40"></p></br>
+
+   
+ 
+   <p>Email: <input type="email" name="login"></p></br>
+  <p>дата рождения <input type="date" id="start" name="trip-start"></p></br>
+  <p><b>выберите пол</b></p>
+    <p><input name="мужской" type="radio" value="мужской">мужской</p>
+    <p><input name="женский" type="radio" value="женский">женский</p></br>
+    <p><input type="submit" value="Выбрать"></p>
+</form>
+<form>
+<p><b>выберите колличество конечностей</b></p>
+    <p><input name="два" type="radio" value="2">2</p>
+ <p><input name="четыре" type="radio" value="4">4</p>
+  <p><input name="шесть" type="radio" value="6">6</p>
+    <p><input type="submit" value="Выбрать"></p>
+ </form></br>
+ 
+  <form>
+   <p><select name="select" size="3" multiple>
+    <option selected value="1">бессмертие</option>
+    <option value="2">прохождение сквозь стены</option>
+    <option value="3">левитация</option>
+   </select>
+   <input type="submit" value="выбрать"></p> 
+  </form></br>
+ 
+  <form>
+  <p><b>Введите вашу биографию:</b></p>
+  <p><textarea name="биография"></textarea></p>
+  <p><input type="submit" value="выбрать" ></p>
+ </form></br>
+ <form>
+   <p><input type="checkbox" name="1" value="с контрактом ознакомлен(а)">с контрактом ознакомлен(а)</p>
+<p> 
+ <input type="submit" value="отправить"></p>
+ </p>
+ </form>
+ 
+</body>
+
+</html>
